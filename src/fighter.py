@@ -1,6 +1,3 @@
-import random
-
-
 class Fighter:
 	def __init__(self, name: str, lives: int, power_of_attack: int):
 		self.name = name
