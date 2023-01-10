@@ -19,7 +19,7 @@ class Arena:
 	def fight(self, first_fighter, second_fighter):
 		while first_fighter.lives > 0 and second_fighter.lives > 0:
 			defender = self.select_defender()
-			print(defender.name)
+			print(f"Defender is: {defender.name}")
 			if first_fighter == defender:
 				second_fighter.attack(first_fighter)
 			else:
