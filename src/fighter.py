@@ -13,6 +13,6 @@ class Fighter:
 
 	def attack(self, defender):
 		defender.lives -= self.power_of_attack
-		print(self.name, self.lives)
+		print(f"{defender.name} have {defender.lives} lives.")
 
 
