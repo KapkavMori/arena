@@ -1,5 +1,5 @@
-from fighter import Fighter
 import random
+from .fighter import Fighter
 
 
 class Warrior(Fighter):

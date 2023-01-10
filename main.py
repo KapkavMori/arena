@@ -1,5 +1,4 @@
 from src.warrior import Warrior
-from src.fighter import Fighter
 from src.arena import Arena
 
 if __name__ == "__main__":
