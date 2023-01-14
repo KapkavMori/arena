@@ -20,3 +20,4 @@ class Warrior(Fighter):
 	def have_shield(self, fighter):
 		if self.shield > 0:
 			fighter.lives += self.shield
+			print(f"Defender shields up.")
