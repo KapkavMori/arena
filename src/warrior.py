@@ -12,7 +12,7 @@ class Warrior(Fighter):
 
 	def shield_raise(self):
 		"""
-		:return: randomly determines if the warrior raises his shield
+		:return: randomly determines if the warrior shields up
 				 0 = no, 1 = yes
 		"""
 		return random.randint(0, 1)
